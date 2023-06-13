@@ -10,6 +10,5 @@ def generate_prime_numbers(n):
     primes = [x for x, is_prime in enumerate(sieve) if is_prime]
     return primes
 
-# Generate prime numbers up to 100
 prime_numbers = generate_prime_numbers(100)
 print(prime_numbers)
