@@ -1,8 +1,6 @@
 # miniature-guacamole
- Miniature Guacamole is a collection of games, websites, and other things that people can add to it. The goal of this repository is to create a collection of whatever people desire to put on here. Have fun!
+ Miniature Guacamole is a collection of braindumps and code. Nothing that is on this repository is actually usable, just a little storage container that I made incase anything here would be useful for future projects. 
  
  # Rules
- There are none.
- 
- Well, actually, there is one. Just be nice, but should that even be a rule?
+ Code is usable by visitors of this repository. That's it.
  
