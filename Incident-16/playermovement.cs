@@ -188,29 +188,4 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
     }
 
-    private void ResetJump()
-    {
-        readyToJump = true;
-
-        exitingSlope = false;
-    }
-
-    private bool OnSlope()
-    {
-        if(Physics.Raycast(transform.position, Vector3.down, out slopeHit, playerHeight * 0.5f + 0.3f))
-        
-        {
-            float angle = Vector3.Angle(Vector3.up, slopeHit.normal);
-            return angle < maxSlopeAnlge && angle != 0;
-        }
-
-        return false;
-    }
-
-    private Vector3 GetSlopeMoveDirection()
-    {
-        return Vector3.ProjecOnPlane(moveDirection, slopeHit.normal).Normalized;
-    }
-        
-
-}
+  
